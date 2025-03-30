@@ -32,6 +32,6 @@ Sección donde los visitantes pueden mandarme un mensaje a mi email profesional 
 
 
 ## Autor
-Gonzalo Ramos - Desarrollador de software en crecimiento 🚀
+_[Gonzalo Ramos](https://github.com/RamosGonzalo)_ - Desarrollador de software en crecimiento 🚀
 
 ¡Espero que disfrutes explorando mi portfolio! 
