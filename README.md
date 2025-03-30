@@ -24,7 +24,14 @@ Aquí muestro algunos de los proyectos en los que he trabajado, con detalles sob
 ### 📞 Contact
 Sección donde los visitantes pueden mandarme un mensaje a mi email profesional para hacer cualquier consulta o colaboración.
 
+## Capturas de pantalla
+
+![image](https://github.com/user-attachments/assets/dc85a7e1-57fb-4842-8743-63e9e70e1573)
+
+![image](https://github.com/user-attachments/assets/0b8e9ccb-4bf0-40f5-879a-2c4c71beb97b)
+
+
 ## Autor
 Gonzalo Ramos - Desarrollador de software en crecimiento 🚀
 
-¡Espero que disfrutes explorando mi portfolio! ✨
+¡Espero que disfrutes explorando mi portfolio! 
