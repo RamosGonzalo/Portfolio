@@ -3,10 +3,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const languages = ["ES", "EN"];
+const languages = ["EN", "ES"];
 
 const Navbar = () => {
-    const [lang, setLang] = useState("ES");
+    const [lang, setLang] = useState("EN");
     const [isVisible, setIsVisible] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -52,7 +52,7 @@ const Navbar = () => {
                     href="/"
                     className="text-neutral-300 hover:text-violet-500 transition-all hover:translate-x-1"
                 >
-                    Inicio
+                    Home
                 </Link>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                     href="/about"
                     className="text-neutral-300 hover:text-violet-500 transition-all hover:translate-x-1"
                 >
-                    Sobre mí
+                    About
                 </Link>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                     href="/projects"
                     className="text-neutral-300 hover:text-violet-500 transition-all hover:translate-x-1"
                 >
-                    Proyectos
+                    Projects
                 </Link>
                 </li>
                 <li>
