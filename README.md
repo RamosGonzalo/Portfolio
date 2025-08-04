@@ -17,6 +17,5 @@ Construido con un diseño moderno y profesional usando **Next.js**, **TailwindCS
 - Sección de proyectos destacados
 - Blog con contenido dinámico escrito en MDX
 - Formulario de contacto funcional
-- Modo claro/oscuro con toggle persistente
 - Navegación con animaciones suaves
 - Diseño responsive y optimizado
