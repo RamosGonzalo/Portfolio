@@ -29,7 +29,7 @@ export default function BlogClient({ posts }: Props) {
 
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
             {posts.map((post) => (
-                <Link href={`/blog/${post.slug}`} key={post.slug}>
+                <Link href={`/${lang}/blog/${post.slug}`} key={post.slug}>
                 <div className="bg-neutral-900 rounded-xl border border-neutral-700 p-6 hover:scale-[1.02] transition-transform">
                     <span className="text-xs text-neutral-500">{post.date}</span>
                     <h3 className="text-lg font-semibold text-white mt-2 mb-1">{post.title}</h3>

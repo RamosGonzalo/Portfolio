@@ -10,7 +10,7 @@ export default function LangLayout({
     return (
         <LangProvider>
             <Navbar />
-                {children}
+                <main className="mb-20">{children}</main> 
             <Footer />
         </LangProvider>
     )

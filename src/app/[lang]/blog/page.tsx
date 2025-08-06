@@ -1,13 +1,7 @@
-import BlogClient from "./BlogClient";
 import { getBlogPosts } from "@/lib/getBlogPosts";
+import BlogClient from "./BlogClient";
 
-type Props = {
-    params: {
-        lang: "en" | "es";
-    };
-};
-
-export default async function BlogPage({ params }: Props) {
-    const posts = getBlogPosts(params.lang);
+export default async function BlogPage({ params }: { params: { lang: "en" | "es" } }) {
+    const posts = await getBlogPosts(params.lang);
     return <BlogClient posts={posts} />;
 }
