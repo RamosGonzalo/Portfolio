@@ -1,0 +1,43 @@
+"use client";
+import { useEffect, useState } from "react";
+import { useLang } from "@/context/langContext";
+import { home } from "@/i18n/home";
+
+export default function HomePage() {
+  const lang = useLang();
+  const [typedText, setTypedText] = useState("");
+  const fullText = home[lang].title;
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setTypedText(fullText.slice(0, index + 1));
+      index++;
+      if (index === fullText.length) clearInterval(interval);
+    }, 70);
+    return () => clearInterval(interval);
+  }, [fullText]);
+
+  return (
+    <main className="flex items-center justify-center min-h-screen px-6 sm:px-10 lg:px-24 xl:px-32 py-10">
+      <div className="animate-fadeIn container mx-auto text-center">
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl tracking-tight font-playfair font-bold  bg-gradient-to-r from-[#634559] to-[#4D607A] bg-clip-text text-transparent min-h-[100px]">
+          {typedText}
+          <span className="text-neutral-400 animate-pulse">|</span>
+        </h1>
+
+        <p className="text-lg text-neutral-400 font-sans italic mt-6 mb-8 max-w-xl mx-auto">
+          {home[lang].description}
+        </p>
+
+        <a
+          href="/CV-Gonzalo-Ramos.pdf"
+          target="_blank"
+          className="bg-neutral-800 px-4 py-2.5 rounded-md hover:bg-neutral-600 hover:text-white transition-all cursor-pointer"
+        >
+          {home[lang].cvButton}
+        </a>
+      </div>
+    </main>
+  );
+}
