@@ -10,7 +10,7 @@ export function LangProvider({ children }: { children: React.ReactNode }) {
     const params = useParams()
     const langParam = params?.lang as Lang
 
-    const lang: Lang = langParam === "es" ? "es" : "en" // default: "en"
+    const lang: Lang = langParam === "es" ? "es" : "en"
 
     return (
         <LangContext.Provider value={lang}>

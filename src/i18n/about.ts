@@ -6,7 +6,7 @@ export const about = {
         description2:
         "I believe in building things that matter, growing a little every day, and never settling. My goal is to join companies that push boundaries — whether that's Google, Amazon, or startups with vision.",
         technologiesTitle: "Technologies I've been working with:",
-        routineTitle: "My daily routine:",
+        routineTitle: "My daily routine",
         routine1: "🥊 Kickboxing training",
         routine2: "🧠 Studying programming and sharpening my skills daily",
         routine3: "📚 Reading books on personal growth, psychology, and technology",
@@ -22,7 +22,7 @@ export const about = {
         description2:
         "Creo en construir cosas que importan, crecer un poco cada día y nunca conformarme. Mi objetivo es unirme a empresas que rompen moldes, ya sea Google, Amazon o startups con visión.",
         technologiesTitle: "Tecnologías con las que estuve trabajando:",
-        routineTitle: "Mi rutina diaria:",
+        routineTitle: "Mi rutina diaria",
         routine1: "🥊 Entrenamiento de Kickboxing",
         routine2: "🧠 Estudiando programación y puliendo mis habilidades a diario",
         routine3: "📚 Leyendo libros sobre crecimiento personal, psicología y tecnología",

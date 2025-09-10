@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react"
 import { useLang } from "@/context/langContext"
 import { navbar } from "@/i18n/navbar"
 import { usePathname, useRouter } from "next/navigation"
-import { blogSlugMap } from "@/data/blogSlugs";
 
 const Navbar = () => {
     const lang = useLang()
@@ -23,23 +22,11 @@ const Navbar = () => {
         { label: labels.home, path: "" },
         { label: labels.about, path: "about" },
         { label: labels.projects, path: "projects" },
-        { label: labels.blog, path: "blog" },
+        { label: labels.contact, path: "contact" },
     ]
 
     const toggleLanguage = () => {
     const newLang = lang === "en" ? "es" : "en";
-    const pathSegments = pathname.split("/");
-
-    if (pathSegments.includes("blog") && pathSegments.length === 4) {
-        const currentSlug = pathSegments[3] as keyof typeof blogSlugMap["en"]; // 👈
-
-        const newSlug = blogSlugMap[lang][currentSlug];
-
-        if (newSlug) {
-            router.push(`/${newLang}/blog/${newSlug}`);
-            return;
-        }
-    }
 
     const newPath = pathname.replace(/^\/(en|es)/, `/${newLang}`);
     router.push(newPath);

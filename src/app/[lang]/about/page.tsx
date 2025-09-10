@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { about } from "@/i18n/about"
 import { useLang } from "@/context/langContext"
+import Timeline from "@/components/Timeline"
 
 export default function AboutPage() {
     const lang = useLang()
@@ -39,14 +40,14 @@ export default function AboutPage() {
                     {t.technologiesTitle}
                     </h3>
                     <ul className="grid grid-cols-2 opacity-80 text-sm gap-y-1 list-disc list-inside">
-                    <li>TypeScript</li>
-                    <li>React.js</li>
-                    <li>TailwindCSS</li>
-                    <li>Node.js</li>
-                    <li>Java</li>
-                    <li>JavaScript ES6+</li>
-                    <li>Python</li>
-                    <li>C#</li>
+                        <li>TypeScript</li>
+                        <li>React.js</li>
+                        <li>TailwindCSS</li>
+                        <li>Node.js</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>C#</li>
                     </ul>
                 </div>
 
@@ -63,22 +64,24 @@ export default function AboutPage() {
                 </div>
             </section>
 
+            <Timeline />
+
             <section className="px-6 sm:px-10 lg:px-24 xl:px-32 my-10">
                 <div className="animate-fadeIn w-full max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div>
-                        <h3 className="text-md text-white font-semibold mb-4">{t.routineTitle}</h3>
+                        <h3 className="text-lg font-semibold pb-6">{t.routineTitle}</h3>
                         <ul className="text-sm opacity-80 leading-relaxed list-disc list-inside space-y-1">
-                        <li>{t.routine1}</li>
-                        <li>{t.routine2}</li>
-                        <li>{t.routine3}</li>
-                        <li>{t.routine4}</li>
-                        <li>{t.routine5}</li>
-                        <li>{t.routine6}</li>
+                            <li>{t.routine1}</li>
+                            <li>{t.routine2}</li>
+                            <li>{t.routine3}</li>
+                            <li>{t.routine4}</li>
+                            <li>{t.routine5}</li>
+                            <li>{t.routine6}</li>
                         </ul>
                     </div>
 
                     <div className="flex flex-col justify-start space-y-6">
-                    <h3 className="text-md font-semibold text-white mb-2">{t.playlist}</h3>
+                    <h3 className="text-lg font-semibold">{t.playlist}</h3>
                         <div className="rounded-xl overflow-hidden w-full max-w-md mx-auto">
                             <iframe
                             style={{ borderRadius: "12px" }}

@@ -3,12 +3,12 @@ export const navbar = {
         home: 'Home',
         about: 'About',
         projects: 'Projects',
-        blog: 'Blog'
+        contact: 'Contact'
     },
     es: {
         home: 'Inicio',
         about: 'Sobre mi',
         projects: 'Proyectos',
-        blog: 'Blog'
+        contact: 'Contacto'
     }
 }

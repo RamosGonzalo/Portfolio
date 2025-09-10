@@ -40,6 +40,15 @@ const Footer = () => {
                     className="opacity-60 hover:opacity-90 hover:scale-110 transition-all duration-200"
                     />
                 </a>
+                <a href="https://medium.com/@gonzaloramos.dev" target="_blank" rel="noopener noreferrer">
+                    <Image 
+                    src="/icons/medium.svg"
+                    alt="Medium"
+                    width={34}
+                    height={34}
+                    className="opacity-60 hover:opacity-90 hover:scale-110 transition-all duration-200"
+                    />
+                </a>
                 <a href="mailto:gonzaloramos.dev@gmail.com" target="_blank" rel="noopener noreferrer">
                     <Image 
                     src="/icons/email.svg"
