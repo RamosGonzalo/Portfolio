@@ -56,7 +56,7 @@ const dotColor = (c?: string) => {
             initial="hidden"
             animate="show"
             whileHover={{ scale: 1.02 }}
-            transition={{ duration: 0.18, ease: easeOutBezier }}
+            transition={{ duration: 0.30, ease: easeOutBezier }}
             >
             <div className="grid grid-cols-1 sm:grid-cols-[130px_1fr] gap-1 sm:gap-4">
                 <h2 className="text-lg font-semibold pt-4">{copy.heading}</h2>
@@ -77,7 +77,7 @@ const dotColor = (c?: string) => {
                         <motion.div
                         className="py-2 px-2 rounded-md transform-gpu origin-left"
                         variants={itemVariants}
-                        whileHover={{ scale: 1.05 }}
+                        whileHover={{ scale: 1.04 }}
                         transition={{ duration: 0.16, ease: easeOutBezier }}
                         >
                         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
