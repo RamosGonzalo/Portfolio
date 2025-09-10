@@ -93,7 +93,7 @@ const Navbar = () => {
 
                 <div
                     onClick={toggleLanguage}
-                    className="text-xs px-3 py-1 rounded-2xl hover:bg-neutral-800 hover:text-white transition-all cursor-pointer select-none"
+                    className="text-xs pr-1 py-1 rounded-2xl hover:bg-neutral-800 hover:text-white transition-all cursor-pointer select-none"
                 >
                     {lang === "en" ? "EN" : "ES"}
                 </div>

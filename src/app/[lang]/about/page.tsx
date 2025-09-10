@@ -17,7 +17,7 @@ export default function AboutPage() {
                     <h2 className="text-4xl font-bold mb-2 text-neutral-100">{t.title}</h2>
                     <div className="h-1 w-24 bg-neutral-600 rounded mb-6" />
 
-                    <p className="opacity-80 text-lg mb-4 leading-relaxed text-neutral-300">
+                    <p className="opacity-80 text-md mb-4 leading-relaxed text-neutral-300">
                     {t.description1.split("KIAD").map((part, index, arr) => (
                         <span key={index}>
                         {part}
