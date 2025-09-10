@@ -22,7 +22,7 @@ const Footer = () => {
                     className="opacity-60 hover:opacity-90 hover:scale-110 transition-all duration-200"
                     />
                 </a>
-                <a href="https://www.instagram.com/gnnza._" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com/gonmadeit" target="_blank" rel="noopener noreferrer">
                     <Image 
                     src="/icons/instagram.svg"
                     alt="Instagram"
