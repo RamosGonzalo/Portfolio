@@ -1,12 +1,14 @@
 export const home = {
     en: {
         title: "Hi, I'm Gonza",
-        description: "Passionate about technology and learning. Focused on teamwork and industry best practices to solve real-world problems.",
-        cvButton: "View my CV"
+        description:
+        "Software developer from Argentina. Strengthening my Java + AWS skills with a focus on best practices. Goal: Amazon. I enjoy learning new technologies and skills and applying them to solving complex problems.",
+        cvButton: "View my CV",
     },
     es: {
         title: "Hola, soy Gonza",
-        description: "Apasionado por la tecnología y el aprendizaje. Enfocado en el trabajo en equipo y las mejores prácticas para resolver problemas reales.",
-        cvButton: "Ver mi CV"
-    }
-}
+        description:
+        "Desarrollador de software de Argentina. Fortaleciendo Java + AWS con foco en buenas prácticas. Objetivo: Amazon. Disfruto aprender tecnologías y habilidades nuevas para aplicarlas en la solución de problemas complejos.",
+        cvButton: "Ver mi CV",
+    },
+};

@@ -86,12 +86,12 @@ const dotColor = (c?: string) => {
                                 href={item.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="font-medium hover:underline underline-offset-4"
+                                className="font-bold hover:underline underline-offset-4"
                             >
                                 {item.org}
                             </a>
                             ) : (
-                            <p className="font-medium">{item.org}</p>
+                            <p className="font-bold">{item.org}</p>
                             )}
 
                             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 sm:mt-0">

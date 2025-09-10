@@ -75,7 +75,7 @@ export default function ContactSection() {
                 </a>
 
                 <a
-                href="/Gonzalo_Ramos_CV.pdf"
+                href="/CV - Gonzalo Patricio Ramos.pdf"
                 download
                 className="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm hover:bg-white/5 transition"
                 >
