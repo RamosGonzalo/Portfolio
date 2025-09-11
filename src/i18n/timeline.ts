@@ -36,7 +36,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         bullets: [
             "Desarrollando proyectos para poner en juego mis habilidades",
         ],
-        color: "green",
+        color: "violet",
         },
         {
         org: "Universidad Tecnológica Nacional",
@@ -46,6 +46,18 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         color: "amber",
         link: "https://www.frgp.utn.edu.ar/",
         },
+        {
+        org: "Instituto Superior Cultural Británico",
+        period: "Mar 2023 – Presente",
+        title: "Inglés para Adultos (intensivo)",
+        bullets: [
+            "Carga horaria: 3 h/semana (clases dinámicas y conversacionales).",
+            "Enfoque comunicativo para situaciones cotidianas (viajes, pedidos de info, etc).",
+            "Trayecto con preparación para exámenes internacionales."
+        ],
+        color: "green",
+        link: "https://icbritanico.edu.ar/"
+        }
     ],
     en: [
         {
@@ -75,7 +87,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         bullets: [
             "Developing projects to put my skills into play",
         ],
-        color: "green",
+        color: "violet",
         },
         {
         org: "National Technological University",
@@ -85,5 +97,17 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         color: "amber",
         link: "https://www.frgp.utn.edu.ar/",
         },
+        {
+        org: "British Superior Cultural Institute",
+        period: "Mar 2023 – Now",
+        title: "Adult English (intensive track)",
+        bullets: [
+            "3 hours/week, dynamic and speaking-first classes.",
+            "Communicative approach to everyday situations (travel, info requests, etc.).",
+            "Pathway/prep for international exams."
+        ],
+        color: "green",
+        link: "https://icbritanico.edu.ar/"
+        }
     ],
 };

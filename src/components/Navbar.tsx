@@ -91,12 +91,15 @@ const Navbar = () => {
                     })}
                 </ul>
 
-                <div
-                    onClick={toggleLanguage}
-                    className="text-xs pr-1 py-1 rounded-2xl hover:bg-neutral-800 hover:text-white transition-all cursor-pointer select-none"
+                <button
+                type="button"
+                onClick={toggleLanguage}
+                className="inline-flex h-8 items-center px-3 text-xs rounded-md hover:bg-neutral-800 hover:text-white transition-colors cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-600"
+                aria-label={lang === "en" ? "Change language to Spanish" : "Cambiar idioma a inglés"}
                 >
-                    {lang === "en" ? "EN" : "ES"}
-                </div>
+                {lang === "en" ? "EN" : "ES"}
+                </button>
+
                 </div>
             </nav>
         </header>

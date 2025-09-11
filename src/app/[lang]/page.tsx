@@ -59,7 +59,7 @@ export default function HomePage() {
 
         <div className="flex items-center justify-center gap-3">
           <a
-            href="/Gonzalo_Ramos_CV.pdf"
+            href="/CV - Gonzalo Patricio Ramos.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"

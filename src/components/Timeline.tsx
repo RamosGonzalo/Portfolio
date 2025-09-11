@@ -12,6 +12,7 @@ const dotColor = (c?: string) => {
         case "amber": return "bg-amber-300";
         case "green": return "bg-green-500";
         case "red": return "bg-red-500";
+        case "violet": return "bg-violet-500";
         default: return "bg-blue-500";
     }
     };
