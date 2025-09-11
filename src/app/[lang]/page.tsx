@@ -34,7 +34,7 @@ export default function HomePage() {
   }, [fullText, prefersReduced]);
 
   return (
-    <main className="flex items-center justify-center min-h-dvh px-6 sm:px-10 lg:px-24 xl:px-32 py-10">
+    <main className="flex items-center justify-center min-h-dvh px-6 sm:px-10 lg:px-24 xl:px-32 py-36">
       <div className="animate-fadeIn w-full max-w-3xl mx-auto text-center">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl tracking-tight font-playfair font-bold bg-gradient-to-r from-[#634559] to-[#4D607A] bg-clip-text text-transparent min-h-[100px]">
           <span className="sr-only">{fullText}</span>
