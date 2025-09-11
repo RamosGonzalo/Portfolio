@@ -51,15 +51,18 @@ export default function AboutPage() {
                     </ul>
                 </div>
 
-                <div className="hidden md:flex justify-center md:justify-end items-center">
-                    <Image
+                <div className="flex justify-center md:justify-end items-center mt-6 md:mt-0">
+                <Image
                     src="/perfil.webp"
                     alt="Gonzalo Ramos"
                     width={340}
                     height={340}
+                    sizes="(min-width: 768px) 340px, 220px"
                     unoptimized
-                    className="transition-transform duration-300 hover:scale-105 rounded-2xl shadow-2xl shadow-gray-900 border border-neutral-700 object-cover"
-                    />
+                    className="rounded-2xl shadow-2xl shadow-gray-900 border border-neutral-700 object-cover
+                            w-[220px] h-[220px] sm:w-[260px] sm:h-[260px] md:w-[340px] md:h-[340px]
+                            transition-transform duration-300 md:hover:scale-105"
+                />
                 </div>
                 </div>
             </section>
