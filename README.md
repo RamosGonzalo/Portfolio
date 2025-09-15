@@ -1,19 +1,21 @@
 # Portfolio - Gonzalo Ramos
 
-Este es mi portfolio personal, creado para reflejar quién soy como desarrollador y mostrar mis proyectos, habilidades y valores.  
-Construido con un diseño moderno y profesional usando **Next.js**, **TailwindCSS** y **TypeScript**.
+This is my personal portfolio, created to demonstrate who I am as a Software Developer and to showcase my projects, skills, and experience.  
+Developed with a modern and professional design using **Next.js**, **TailwindCSS**, and **TypeScript**.
 
-## 🚀 Tecnologías y herramientas
+👉 [Check out my portfolio here](https://gonzaloramos.vercel.app/en)
 
-- ⚡ Next.js
-- 🌬️ TailwindCSS
-- 🟦 TypeScript
-- 🌐 Soporte multilenguaje (ES / EN)
+## 🚀 Tech and Tools
 
-## 🧩 Funcionalidades
+- ⚡ Next.js  
+- 🌬️ TailwindCSS  
+- 🟦 TypeScript  
+- 🌐 Multilingual support (ES / EN)
 
-- Página de inicio con presentación personal
-- Sección de proyectos destacados
-- Sección de contacto
-- Navegación con animaciones suaves
-- Diseño responsive y optimizado
+## 🧩 Functionality
+
+- Home page with a personal introduction  
+- Recent projects and "Currently Working On" section  
+- Contact section  
+- Navigation with smooth animations  
+- Responsive and optimized design
