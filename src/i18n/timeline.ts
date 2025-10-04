@@ -21,7 +21,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "Universidad de Buenos Aires",
-        period: "Ene 2025 - Presente",
+        period: "Mar 2025 - Presente",
         title: "Ingenieria en Informática",
         bullets: [
             "Ingresando a la carrera de ingenieria para enorgullecer a mis padres",
@@ -40,7 +40,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "Universidad Tecnológica Nacional",
-        period: "Ene 2024 – Presente",
+        period: "Mar 2024 – Presente",
         title: "Tecnicatura Universitaria en Programación",
         bullets: ["Java, C#, SQL, patrones, arquitectura básica."],
         color: "amber",
@@ -74,7 +74,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "University of Buenos Aires",
-        period: "Jan 2025 – Now",
+        period: "Mar 2025 – Now",
         title: "Computer Engineering",
         bullets: ["Starting a career in engineering to make my parents proud."],
         color: "red",
@@ -91,7 +91,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "National Technological University",
-        period: "Jan 2024 – Now",
+        period: "Mar 2024 – Now",
         title: "Technical Degree in Programming",
         bullets: ["Java, C#, SQL, patterns, basic architecture."],
         color: "amber",
