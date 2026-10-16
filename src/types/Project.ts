@@ -7,5 +7,5 @@ export type Project = {
     image: string;
     stack: string[];
     github?: string;
-    status: "done" | "in-progress";
+    status: "done" | "in-progress" | "planned";
 };
