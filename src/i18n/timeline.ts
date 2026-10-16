@@ -9,7 +9,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
     es: [
         {
         org: "KIAD",
-        period: "Abr 2025 – Presente",
+        period: "Abr 2025 – Dic 2025",
         title: "Co-fundador & Frontend Developer",
         bullets: [
             "Cofundar la startup, ocupandome de la experiencia del cliente.",
@@ -17,17 +17,6 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
             "Mejoras de performance.",
         ],
         color: "blue",
-        link: "https://www.kiad.dev/",
-        },
-        {
-        org: "Universidad de Buenos Aires",
-        period: "Mar 2025 - Presente",
-        title: "Ingenieria en Informática",
-        bullets: [
-            "Ingresando a la carrera de ingenieria para enorgullecer a mis padres",
-        ],
-        color: "red",
-        link: "https://www.uba.ar/",
         },
         {
         org: "Proyectos Personales",
@@ -40,7 +29,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "Universidad Tecnológica Nacional",
-        period: "Mar 2024 – Presente",
+        period: "Mar 2024 – May 2026",
         title: "Tecnicatura Universitaria en Programación",
         bullets: ["Java, C#, SQL, patrones, arquitectura básica."],
         color: "amber",
@@ -48,7 +37,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "Instituto Superior Cultural Británico",
-        period: "Mar 2023 – Presente",
+        period: "Mar 2023 – Dic 2025",
         title: "Inglés para Adultos (intensivo)",
         bullets: [
             "Carga horaria: 3 h/semana (clases dinámicas y conversacionales).",
@@ -62,7 +51,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
     en: [
         {
         org: "KIAD",
-        period: "Apr 2025 – Now",
+        period: "Apr 2025 – Dec 2025",
         title: "Co-founder & Frontend Developer",
         bullets: [
             "Co-founded the startup, focusing on customer experience.",
@@ -70,15 +59,6 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
             "Implemented performance improvements.",
         ],
         color: "blue",
-        link: "https://www.kiad.dev/",
-        },
-        {
-        org: "University of Buenos Aires",
-        period: "Mar 2025 – Now",
-        title: "Computer Engineering",
-        bullets: ["Starting a career in engineering to make my parents proud."],
-        color: "red",
-        link: "https://www.uba.ar/",
         },
         {
         org: "Personal Projects",
@@ -91,7 +71,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "National Technological University",
-        period: "Mar 2024 – Now",
+        period: "Mar 2024 – May 2026",
         title: "Technical Degree in Programming",
         bullets: ["Java, C#, SQL, patterns, basic architecture."],
         color: "amber",
@@ -99,7 +79,7 @@ export const timelineByLang: Record<Lang, TimelineItem[]> = {
         },
         {
         org: "British Superior Cultural Institute",
-        period: "Mar 2023 – Now",
+        period: "Mar 2023 – Dec 2025",
         title: "Adult English (intensive track)",
         bullets: [
             "3 hours/week, dynamic and speaking-first classes.",

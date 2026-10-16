@@ -42,14 +42,16 @@ export default function AboutPage() {
                     <ul className="grid grid-cols-2 opacity-80 text-sm gap-y-1 list-disc list-inside">
                         <li>Python</li>
                         <li>FastAPI</li>
-                        <li>SQLAlchemy</li>
-                        <li>PostgreSQL</li>
                         <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>SQLAlchemy</li>
+                        <li>Pandas</li>
+                        <li>Excel</li>
+                        <li>Power BI</li>
                         <li>Git & GitHub</li>
-                        <li>Java</li>
                         <li>C# / .NET</li>
-                        <li>TypeScript</li>
                         <li>Next.js</li>
+                        <li>TypeScript</li>
                     </ul>
                 </div>
 
