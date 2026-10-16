@@ -23,7 +23,6 @@ export default function AboutPage() {
                         {part}
                         {index < arr.length - 1 && (
                             <a
-                            href="https://www.kiad.dev/"
                             target="_blank"
                             className="text-white font-semibold"
                             >
