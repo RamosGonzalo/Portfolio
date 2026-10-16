@@ -32,7 +32,7 @@ export default function HomePage() {
       setTypedText(fullText.slice(0, index));
 
       if (index >= fullText.length) clearInterval(id);
-    }, 150);
+    }, 120);
 
     return () => clearInterval(id);
   }, [fullText, prefersReduced]);
