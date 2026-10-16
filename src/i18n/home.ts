@@ -2,13 +2,13 @@ export const home = {
     en: {
         title: "Hi, I'm Gonza",
         description:
-        "Software developer from Argentina. Strengthening my Java + AWS skills with a focus on best practices. Goal: Amazon. I enjoy learning new technologies and skills and applying them to solving complex problems.",
+            "Software developer from Argentina focused on backend development with Python, FastAPI, and SQL. Passionate about building reliable applications, writing clean code, and exploring data analytics and AI.",
         cvButton: "Download CV",
     },
     es: {
         title: "Hola, soy Gonza",
         description:
-        "Desarrollador de software de Argentina. Fortaleciendo Java + AWS con foco en buenas prácticas. Objetivo: Amazon. Disfruto aprender tecnologías y habilidades nuevas para aplicarlas en la solución de problemas complejos.",
+            "Desarrollador de software de Argentina, enfocado en el desarrollo backend con Python, FastAPI y SQL. Apasionado por construir aplicaciones confiables, escribir código limpio y explorar el análisis de datos y la inteligencia artificial.",
         cvButton: "Descargar CV",
     },
 };

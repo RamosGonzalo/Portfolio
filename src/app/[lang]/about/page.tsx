@@ -40,14 +40,16 @@ export default function AboutPage() {
                     {t.technologiesTitle}
                     </h3>
                     <ul className="grid grid-cols-2 opacity-80 text-sm gap-y-1 list-disc list-inside">
-                        <li>TypeScript</li>
-                        <li>React.js</li>
-                        <li>TailwindCSS</li>
-                        <li>Node.js</li>
-                        <li>Java</li>
                         <li>Python</li>
-                        <li>C++</li>
-                        <li>C#</li>
+                        <li>FastAPI</li>
+                        <li>SQLAlchemy</li>
+                        <li>PostgreSQL</li>
+                        <li>SQL</li>
+                        <li>Git & GitHub</li>
+                        <li>Java</li>
+                        <li>C# / .NET</li>
+                        <li>TypeScript</li>
+                        <li>Next.js</li>
                     </ul>
                 </div>
 

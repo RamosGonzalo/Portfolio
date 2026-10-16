@@ -1,34 +1,35 @@
+
 export const about = {
     en: {
         title: "About me",
         description1:
-        "I'm currently completing my Programming degree at UTN, and preparing to start the Computer Science degree at the University of Buenos Aires. I co-founded KIAD, a software startup focused on modern web development and creative digital solutions.",
+            "I'm a Software Development graduate from UTN in Argentina, focused on backend development with Python, FastAPI, and SQL. I enjoy designing APIs, working with databases, and learning how to build reliable, maintainable software through clean architecture and best practices.",
         description2:
-        "I believe in building things that matter, growing a little every day, and never settling. My goal is to join companies that push boundaries — whether that's Google, Amazon, or startups with vision.",
-        technologiesTitle: "Technologies I've been working with:",
-        routineTitle: "My daily routine",
-        routine1: "🥊 Kickboxing training",
-        routine2: "🧠 Studying programming and sharpening my skills daily",
-        routine3: "📚 Reading books on personal growth, psychology, and technology",
-        routine4: "📓 Writing future goals and journaling every morning",
-        routine5: "💻 Working on side projects and building ideas that excite me",
-        routine6: "☕ Starting each day with strong coffee and stronger intention",
-        playlist: "🎧 My playlists while I'm coding",
+            "I'm currently developing EventFlow, a backend project where I'm applying what I've learned about API design, authentication, database modeling, and automated testing. I'm also interested in data analytics and artificial intelligence, areas I'd like to explore further throughout my career.",
+        technologiesTitle: "Technologies I've worked with:",
+        routineTitle: "What I'm focused on",
+        routine1: "Building backend applications with Python and FastAPI",
+        routine2: "Practicing software architecture and clean code",
+        routine3: "Improving my SQL and database skills",
+        routine4: "Preparing for international academic opportunities",
+        routine5: "Exploring data analytics and artificial intelligence",
+        routine6: "Building projects and learning by doing",
+        playlist: "🎧 My coding playlists",
     },
     es: {
         title: "Sobre mí",
         description1:
-        "Actualmente estoy finalizando una Tecnicatura Universitaria en Programación en la UTN, y preparándome para iniciar Ingeniería en Informática en la UBA. Soy cofundador de KIAD, una startup de desarrollo de software enfocada en el desarrollo de webs modernas y soluciones digitales creativas.",
+            "Soy Técnico Universitario en Programación, graduado de la UTN en Argentina, y estoy enfocado en el desarrollo backend con Python, FastAPI y SQL. Disfruto diseñar APIs, trabajar con bases de datos y aprender a construir software confiable y mantenible mediante una buena arquitectura y buenas prácticas.",
         description2:
-        "Creo en construir cosas que importan, crecer un poco cada día y nunca conformarme. Mi objetivo es unirme a empresas que rompen moldes, ya sea Google, Amazon o startups con visión.",
-        technologiesTitle: "Tecnologías con las que estuve trabajando:",
-        routineTitle: "Mi rutina diaria",
-        routine1: "🥊 Entrenamiento de Kickboxing",
-        routine2: "🧠 Estudiando programación y puliendo mis habilidades a diario",
-        routine3: "📚 Leyendo libros sobre crecimiento personal, psicología y tecnología",
-        routine4: "📓 Escribiendo metas futuras y diario cada mañana",
-        routine5: "💻 Trabajando en proyectos paralelos y construyendo ideas que me emocionan",
-        routine6: "☕ Comenzando cada día con un café fuerte y una intención aún más fuerte",
-        playlist: "🎧 Mis playlists mientras codeo",
+            "Actualmente estoy desarrollando EventFlow, un proyecto backend en el que aplico conocimientos de diseño de APIs, autenticación, modelado de bases de datos y pruebas automatizadas. También me interesan el análisis de datos y la inteligencia artificial, áreas en las que quiero seguir profundizando a lo largo de mi carrera.",
+        technologiesTitle: "Tecnologías con las que trabajé:",
+        routineTitle: "En qué estoy enfocado",
+        routine1: "Desarrollar aplicaciones backend con Python y FastAPI",
+        routine2: "Practicar arquitectura de software y código limpio",
+        routine3: "Mejorar mis habilidades en SQL y bases de datos",
+        routine4: "Prepararme para oportunidades académicas internacionales",
+        routine5: "Explorar el análisis de datos y la inteligencia artificial",
+        routine6: "Crear proyectos y aprender haciendo",
+        playlist: "🎧 Mis playlists para programar",
     },
-}
+};

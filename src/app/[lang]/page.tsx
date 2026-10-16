@@ -50,7 +50,7 @@ export default function HomePage() {
           <li className="rounded-full border border-neutral-700 px-3 py-1">Java</li>
           <li className="rounded-full border border-neutral-700 px-3 py-1">AWS</li>
           <li className="rounded-full border border-neutral-700 px-3 py-1">Python</li>
-          <li className="rounded-full border border-neutral-700 px-3 py-1">React.js</li>
+          <li className="rounded-full border border-neutral-700 px-3 py-1">Next.js</li>
         </ul>
 
         <p className="text-lg text-neutral-400 font-sans italic mt-6 mb-8 mx-auto">
