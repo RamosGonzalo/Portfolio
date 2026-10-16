@@ -1,6 +1,6 @@
+
 "use client";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { useLang } from "@/context/langContext";
 import { home } from "@/i18n/home";
 
@@ -23,13 +23,17 @@ export default function HomePage() {
       setTypedText(fullText);
       return;
     }
+
     setTypedText("");
     let index = 0;
+
     const id = setInterval(() => {
       index++;
       setTypedText(fullText.slice(0, index));
+
       if (index >= fullText.length) clearInterval(id);
-    }, 70);
+    }, 150);
+
     return () => clearInterval(id);
   }, [fullText, prefersReduced]);
 
@@ -41,42 +45,37 @@ export default function HomePage() {
           <span aria-hidden="true">
             {typedText}
             {!prefersReduced && (
-              <span className="font-mono text-neutral-400 animate-pulse">|</span>
+              <span className="font-mono text-neutral-400 animate-pulse">
+                |
+              </span>
             )}
           </span>
         </h1>
 
         <ul className="mt-4 flex flex-wrap justify-center gap-2 text-xs font-inter tracking-widest text-neutral-400">
-            <li className="rounded-full border border-neutral-700 px-3 py-1">Python</li>
-            <li className="rounded-full border border-neutral-700 px-3 py-1">FastAPI</li>
-            <li className="rounded-full border border-neutral-700 px-3 py-1">SQL</li>
-            <li className="rounded-full border border-neutral-700 px-3 py-1">Pandas</li>
-            <li className="rounded-full border border-neutral-700 px-3 py-1">Excel</li>
-            <li className="rounded-full border border-neutral-700 px-3 py-1">Power BI</li>
+          <li className="rounded-full border border-neutral-700 px-3 py-1">
+            Python
+          </li>
+          <li className="rounded-full border border-neutral-700 px-3 py-1">
+            FastAPI
+          </li>
+          <li className="rounded-full border border-neutral-700 px-3 py-1">
+            SQL
+          </li>
+          <li className="rounded-full border border-neutral-700 px-3 py-1">
+            Pandas
+          </li>
+          <li className="rounded-full border border-neutral-700 px-3 py-1">
+            Excel
+          </li>
+          <li className="rounded-full border border-neutral-700 px-3 py-1">
+            Power BI
+          </li>
         </ul>
 
         <p className="text-lg text-neutral-400 font-sans italic mt-6 mb-8 mx-auto">
           {home[lang].description}
         </p>
-
-        <div className="flex items-center justify-center gap-3">
-          <a
-            href="/CV - Gonzalo Patricio Ramos.pdf"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-neutral-800 px-4 py-2.5 rounded-md hover:bg-neutral-600 hover:text-white transition-all cursor-pointer"
-          >
-            {home[lang].cvButton}
-          </a>
-
-          <Link
-            href={`/${lang}/contact`}
-            className="px-4 py-2.5 rounded-md border border-neutral-700 hover:bg-white/5 transition-all"
-          >
-            {lang === "es" ? "Contacto" : "Contact"}
-          </Link>
-        </div>
       </div>
     </main>
   );
