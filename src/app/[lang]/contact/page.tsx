@@ -74,14 +74,6 @@ export default function ContactSection() {
                 {t.cta.write}
                 </a>
 
-                <a
-                href="/CV - Gonzalo Patricio Ramos.pdf"
-                download
-                className="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm hover:bg-white/5 transition"
-                >
-                {t.cta.download}
-                </a>
-
                 <span className="inline-flex items-center gap-2 rounded-full border border-gray-300/60 dark:border-gray-700/60 px-3 py-1 text-xs text-gray-600 dark:text-gray-400">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                 {t.cta.city} • {localTime} ({t.cta.tz})
