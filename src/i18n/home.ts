@@ -6,7 +6,7 @@ export const home = {
         cvButton: "Download CV",
     },
     es: {
-        title: "Buenas, Gon aca.",
+        title: "Buenas, Gon acá.",
         description:
             "Desarrollador de software de Argentina, enfocado en el desarrollo backend con Python, FastAPI y SQL. Apasionado por construir aplicaciones confiables, escribir código limpio y explorar el análisis de datos y la inteligencia artificial.",
         cvButton: "Descargar CV",
